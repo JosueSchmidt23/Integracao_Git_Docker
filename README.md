@@ -23,6 +23,6 @@ Clone o repositório para sua máquina local indo em "Clone a repository" e em "
   Ao terminar de fazer as alterações nos arquivos execute o seguinte comando para adicionar as alterações ao commit: "git add Dockerfile index.html"
   Execute o seguinte comando para fazer o commit das alterações: "git commit -m "Atualizando Dockerfile e index.html"".
 
-### Implantação Automatizada com pipeline de integração contínua (CI) usando a ferramenta GitHub Actions
+### Implantação Automatizada com pipeline de integração contínua (CI) usando a ferramenta GitHub Actions (Opcional)
   Com o Visual Studio Code aberto no diretório do repositório clonado crie o diretório ".github/workflows/" sem as aspas para armazenar os arquivos de fluxo de trabalho. No diretório .github/workflows/, crie um arquivo chamado "learn-github-actions.yml" e adicione o código disponibilizado neste repositório.
   Faça commit dessas alterações e faça push para o seu repositório do GitHub com os seguintes codigos: "git add .github/workflows/learn-github-actions.yml", "git commit -m "Adicionando learn-github-actions.yml"" e "git push origin main" tudo sem as aspas.
